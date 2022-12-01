@@ -1,4 +1,4 @@
-# removing duplicates from the list using naive methods 
+# removing 
 
 
 numlist1 = []
