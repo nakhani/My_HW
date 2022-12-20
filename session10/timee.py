@@ -1,4 +1,4 @@
-class timeee:
+class TIME:
 
     def __init__(self):
         self.hour1 = None
@@ -33,12 +33,13 @@ def main():
   while True:
 
     show_menu()
+    action = TIME()
     choice = int(input("enter your choice:"))
     if choice == 1 :
       hour1 = int(input("enter hour:"))
       minute1 = int(input("enter minute:"))
       second1 = int(input("enter second:"))
-      result = timeee.conv_to_other_times(hour1,minute1,second1)
+      result = action.conv_to_other_times(hour1,minute1,second1)
     elif choice == 2:
       hour1 = int(input("enter first hour:"))
       minute1 = int(input("enter first minute:"))
@@ -46,15 +47,15 @@ def main():
       hour2 = int(input("enter second hour:"))
       minute2 = int(input("enter second minute:"))
       second2 = int(input("enter second second:"))
-      result = timeee.differance(hour1,minute1,second1,hour2,minute2,second2)
+      result =action.differance(hour1,minute1,second1,hour2,minute2,second2)
     elif choice == 3:
       hour1 = int(input("enter hour:"))
       minute1 = int(input("enter minute:"))
       second1 = int(input("enter second:"))
-      result = timeee.convert_to_second(hour1,minute1,second1)
+      result = action.convert_to_second(hour1,minute1,second1)
     elif choice == 4:
       second1 = int(input("enter second:"))
-      result = timeee.convert_to_second(second1)
+      result = action.convert_to_second(second1)
     elif choice == 6:
      exit()
 
