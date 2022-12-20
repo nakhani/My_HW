@@ -1,4 +1,4 @@
-class number:
+class FRACTION:
 
     def __init__(self, num1, num2, num3, num4):
         self.num1 = num1
