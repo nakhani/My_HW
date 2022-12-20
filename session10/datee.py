@@ -10,15 +10,15 @@ class datee:
        
 
 
-    def conv_to_other_dates (self,ye1,mon1,day1):
+    def conv_to_other_dates (self,year1,month1,day1):
         ...
-    def differance (self,ye1,mon1,day1,ye2,mon2,day2):
+    def differance (self,year1,month1,day1,year2,month2,day2):
         ...
-    def convert_to_day (self,ye1,mon1,day1):
+    def convert_to_day (self,year1,month1,day1):
         ...
     def convert_to_year (self,day1):
         ...
-    def cal_age (self,ye1,mon1,day1):
+    def cal_age (self,year1,month1,day1):
         ...
 
 
