@@ -1,4 +1,4 @@
-class datee:
+class DATE:
 
     def __init__(self):
         self.year1 = None
@@ -36,12 +36,13 @@ def main():
   while True:
 
     show_menu()
+    action = Date()
     choice = int(input("enter your choice:"))
     if choice == 1 :
       year = int(input("enter year:"))
       month = int(input("enter month:"))
       day = int(input("enter day:"))
-      result = datee.conv_to_other_dates(year,month,day)
+      result = action.conv_to_other_dates(year,month,day)
     elif choice == 2:
       year = int(input("enter first year:"))
       month = int(input("enter first month:"))
@@ -49,20 +50,20 @@ def main():
       year2 = int(input("enter second year:"))
       month2 = int(input("enter second month:"))
       day2 = int(input("enter second day:"))
-      result = datee.differance(year,month,day,year2,month2,day2)
+      result = action.differance(year,month,day,year2,month2,day2)
     elif choice == 3:
       year = int(input("enter year:"))
       month = int(input("enter month:"))
       day = int(input("enter day:"))
-      result = datee.convert_to_day(year,month,day)
+      result = action.convert_to_day(year,month,day)
     elif choice == 4:
       day = int(input("enter day:"))
-      result = datee.convert_to_year(day)
+      result = action.convert_to_year(day)
     elif choice == 5:
       year = int(input("enter year:"))
       month = int(input("enter month:"))
       day = int(input("enter day:"))
-      result = datee.cal_age(year,month,day)
+      result = action.cal_age(year,month,day)
     elif choice == 6:
      exit()
 
