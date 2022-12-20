@@ -10,13 +10,13 @@ class timeee:
        
 
 
-    def conv_to_other_times (self,ho1,min1,sec1):
+    def conv_to_other_times (self,hour1,minute1,second1):
         ...
-    def differance (self,ho1,min1,sec1,ho2,min2,sec2):
+    def differance (self,hour1,minute1,second1,hour2,minute2,second2):
         ...
-    def convert_to_second (self,ho1,min1,sec1):
+    def convert_to_second (self,hour1,minute1,second1):
         ...
-    def convert_to_hour (self,sec1):
+    def convert_to_hour (self,second1):
         ...
 
 
