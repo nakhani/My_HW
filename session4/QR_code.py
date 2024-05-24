@@ -2,7 +2,7 @@
 
 import qrcode
 from qrcode.image.styledpil import StyledPilImage
-from qrcode.image.styles.moduledrawersp import RoundedModuleDrawer
+from qrcode.image.styles.moduledrawers import RoundedModuleDrawer
 from qrcode.image.styles.colormasks import RadialGradiantColorMask
 
 # name_user = input("please enter your name:\n")
