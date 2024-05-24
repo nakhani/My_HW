@@ -21,7 +21,7 @@ You just need below libarary in specified codes :
 
 ## Usage
 
-You do not need to install above library because both are in python by defult.
+You do not need to install above libraries because both are in python by default.
 
 If you want to run each programm, you should run this command in terminal  :
 
