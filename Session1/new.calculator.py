@@ -1,9 +1,9 @@
 # my_first_calculator 
-#import sys 
+
 from cmath import pi
 import math
 from math import radians 
-#from mpmath import *
+
 
 print('Welcome to this calculator!')
 print('It can add, subtract, multiply, divide, sin, cos, cot, tan, sqrt, factorial')
@@ -58,7 +58,7 @@ elif sign == 'factorial':
    else:    
       for i in range(1,num1 + 1):    
          factorial = factorial*i    
-   result = factorial
+         result = factorial
    #result = math.factorial(num1)
 
 print(result)        
