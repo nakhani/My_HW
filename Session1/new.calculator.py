@@ -58,7 +58,7 @@ elif sign == 'factorial':
    else:    
       for i in range(1,num1 + 1):    
          factorial = factorial*i    
-   result = factorial
+         result = factorial
    #result = math.factorial(num1)
 
 print(result)        
