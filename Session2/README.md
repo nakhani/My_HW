@@ -22,43 +22,43 @@ You just need below libarary in specified codes :
 
 ## Usage
 
-**To run Dice  :**
+**To run a Dice program  :**
 
 ```
 python Dice.py
 ```
 
-**To run GPA calculator  :**
+**To run a GPA calculator  :**
 
 ```
 python GPA2.py
 ```
 
-**To run fibonacci calculator  :**
+**To run a fibonacci calculator  :**
 
 ```
 python fibonacci.py
 ```
 
-**To run Guess Number Game  :**
+**To run a Guess Number Game  :**
 
 ```
 python guess_number.py
 ```
 
-**To run hour-second converter  :**
+**To run a hour-second converter  :**
 
 ```
 python hour_to_second.py
 ```
 
-**To run Rock-Paper Game  :**
+**To run a Rock-Paper Game  :**
 
 ```
 python rock_paper.py
 ```
 
-**To run second-hour converter  :**
+**To run a second-hour converter  :**
 
 ```
 python secon_to_hour.py
