@@ -1,6 +1,6 @@
 # Session 5
 
-This session I wrote below programs:
+In thhis session, I wrote below programs:
 
  - A function which gets **n and m parameters** and print **n*m matrix** like below output :
 
@@ -32,7 +32,7 @@ You just need below libarary :
 - [math](https://www.w3schools.com/python/module_math.asp) *(khayam_triangle.py)*
 
 
- Also other requierments include :
+ Other requierments  :
  
  - windows x64
  - python 3.9.7
