@@ -21,25 +21,25 @@ You just need below libarary in specified codes :
 
 ## Usage
 
-To run BMI  :
+**To run a BMI calculator  :**
 
 ```
 python BMI.py
 ```
 
-To run GPA  :
+**To run a GPA calculator  :**
 
 ```
 python GPA.py
 ```
 
-To run new calculator  :
+**To run a simple calculator  :**
 
 ```
 python new.calculator.py
 ```
 
-To run triangle  :
+**To run a determining possible traingle program  :**
 
 ```
 python triangle.py
