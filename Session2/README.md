@@ -13,7 +13,7 @@ You just need below libarary in specified codes :
 
 
 
- Other requierments  :
+ Other requirements  :
  
  - windows x64
  - python 3.9.7
