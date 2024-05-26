@@ -32,7 +32,7 @@ You just need below libarary :
 - [math](https://www.w3schools.com/python/module_math.asp) *(khayam_triangle.py)*
 
 
- Other requierments  :
+ Other requirerments  :
  
  - windows x64
  - python 3.9.7
