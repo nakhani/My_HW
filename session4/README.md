@@ -16,7 +16,7 @@ You just need below libararies in specified codes :
 
 
 
- Other requierments  :
+ Other requirements  :
  
  - windows x64
  - python 3.9.7
