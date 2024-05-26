@@ -61,5 +61,5 @@ python rock_paper.py
 **To run second-hour converter  :**
 
 ```
-python second_to_hour.py
+python secon_to_hour.py
 ```
