@@ -12,7 +12,7 @@ You just need below libarary in specified codes :
 - [statistics](https://www.w3schools.com/python/module_statistics.asp) *(GPA.py)*
 
 
- Other requierments  :
+ Other requirements  :
  
  - windows x64
  - python 3.9.7
