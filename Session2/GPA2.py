@@ -3,24 +3,27 @@
 
 from statistics import mean
 
+def show():
+    print("you can choose: 1. GPA  2.continue  3.exit")
+
+def avg(m):
+    gpa= mean (m)
+    print ("your average : %.2f" %(gpa))
+
 name = input('please enter your first name and last name: ')
 list = []
-
 while True:
-    course = input('enter your scores course: ')
-    several = course.isdigit()
+    show()
+    course = input("enter your choice: ")
     if course == 'exit':
+        avg(list)
         break
-    elif course == 'avg':
-        #avg = sum(list) / len(list)
-        avg = mean (list)
-        print ('your average :',avg)
-    else:
-        score = float(course)
-        list.append(score)
-
-    #avg = mean (list)
-    #print ('your average is:',avg)
+    elif course == 'GPA':
+        avg(list) 
+        break         
+    elif course == 'continue':
+         score = float(input("enter your score: "))
+         list.append(score)
 
 
 
