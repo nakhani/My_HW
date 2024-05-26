@@ -1,6 +1,6 @@
 # Session 5
 
-In thhis session, I wrote below programs:
+In this session, I wrote below programs:
 
  - A function which gets **n and m parameters** and print **n*m matrix** like below output :
 
