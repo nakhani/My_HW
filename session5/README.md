@@ -41,10 +41,24 @@ You just need below libarary :
 
 ## Usage
 
-You do not need to install above library because It is in python by default.
+**To run a first funcation :**
 
-If you want to run each programm, you should run this command in terminal  :
+```
+python star_table.py
+```
+
+**To run a second funcation :**
+
+```
+python multiply_table.py
+```
+**To run a third funcation :**
 
 ```
 python diamond.py
+```
+**To run a forth funcation :**
+
+```
+python khayam_triangle.py
 ```
