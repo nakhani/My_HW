@@ -33,7 +33,7 @@ else:
 
    result = checksortedlist(numlist1)
    if result == False:
-    sorted(numlist1)
+    sortlist(numlist1)
     print("your sorted_list is:", numlist1)
    else:
     print("your list was sorted")
