@@ -57,7 +57,7 @@ python multiply_table.py
 ```
 python diamond.py
 ```
-**To run a forth function :**
+**To run a fourth function :**
 
 ```
 python khayam_triangle.py
