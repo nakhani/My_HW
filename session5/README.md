@@ -41,26 +41,26 @@ You just need below libarary :
 
 ## Usage
 
-**To run a first function :**
+**To run first function :**
 
 ```
 python star_table.py
 ```
 
-**To run a second function :**
+**To run second function :**
 
 ```
 python multiply_table.py
 ```
 
-**To run a third function :**
+**To run third function :**
 
 
 ```
 python diamond.py
 ```
 
-**To run a fourth function :**
+**To run fourth function :**
 
 ```
 python khayam_triangle.py
