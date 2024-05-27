@@ -41,23 +41,39 @@ You just need below libarary :
 
 ## Usage
 
+<<<<<<< HEAD
 **To run first function :**
+=======
+**To run a first function :**
+>>>>>>> ed21f1a5d7eb4bd72f6262d4bb2e6e811f507961
 
 ```
 python star_table.py
 ```
 
+<<<<<<< HEAD
 **To run second function :**
+=======
+**To run a second function :**
+>>>>>>> ed21f1a5d7eb4bd72f6262d4bb2e6e811f507961
 
 ```
 python multiply_table.py
 ```
+<<<<<<< HEAD
 **To run third function :**
+=======
+**To run a third function :**
+>>>>>>> ed21f1a5d7eb4bd72f6262d4bb2e6e811f507961
 
 ```
 python diamond.py
 ```
+<<<<<<< HEAD
 **To run fourth function :**
+=======
+**To run a fourth function :**
+>>>>>>> ed21f1a5d7eb4bd72f6262d4bb2e6e811f507961
 
 ```
 python khayam_triangle.py
