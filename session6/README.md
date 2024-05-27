@@ -22,11 +22,11 @@ I use below libraries in each specific program:
 
 - [PythonTurtle](https://pypi.org/project/PythonTurtle/)   (*draw_turtle.py*)    
 
-![screeshot](images.png)
+![screenshot](images.png)
 
 - [pyfiglet](https://www.geeksforgeeks.org/python-ascii-art-using-pyfiglet-module/)   (*TicTacToe.py*)
 
-![screeshot](DKWct.png)
+![screenshot](DKWct.png)
 
 - [termcolor](https://pypi.org/project/termcolor/)   (*TicTacToe.py*)
 
