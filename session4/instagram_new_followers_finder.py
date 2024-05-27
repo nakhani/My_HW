@@ -3,7 +3,7 @@ import getpass
 
 
 #read old followers
-f = open("outputs\follower.txt", "r")
+f = open("follower.txt", "r")
 old_followers = []
 for line in f :
     old_followers.append(line)
@@ -34,7 +34,7 @@ for new_follower in new_followers:
 
 
 #save new follower
-f = open("outputs\follower.txt","w")
+f = open("follower.txt","w")
 for follower in new_followers:
     f.write(follower+"\n")
 f.close()

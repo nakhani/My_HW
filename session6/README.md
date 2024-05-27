@@ -4,12 +4,12 @@ In this session, I wrote below programs:
 
  - **TicTacToe Game** 
 
-![screenshot](photos\images.jfif)
+![screenshot](images.jfif)
 
 - A program to **draw the geometric** figure below:
 
 
-![](photos\video-ezgif.com-video-to-gif-converter.gif)
+![](video-ezgif.com-video-to-gif-converter.gif)
 
 - **Cubic Equation Calculator**
 
@@ -22,11 +22,11 @@ I use below libraries in each specific program:
 
 - [PythonTurtle](https://pypi.org/project/PythonTurtle/)   (*draw_turtle.py*)    
 
-![screenshot](photos\images.png)
+![screenshot](images.png)
 
 - [pyfiglet](https://www.geeksforgeeks.org/python-ascii-art-using-pyfiglet-module/)   (*TicTacToe.py*)
 
-![screenshot](photos\DKWct.png)
+![screenshot](DKWct.png)
 
 - [termcolor](https://pypi.org/project/termcolor/)   (*TicTacToe.py*)
 

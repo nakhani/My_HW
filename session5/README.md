@@ -5,23 +5,23 @@ In this session, I wrote below programs:
  - A function which gets **n and m parameters** and print **n*m matrix** like below output :
 
 
-![screenshot](photos\table.png)
+![screenshot](table.png)
 
 - A function which gets **n and m parameters** and print **n*m multiplication matrix** like below output :
 
 
-![screenshot](photos\photo_5947562693529550724_y.jpg)
+![screenshot](photo_5947562693529550724_y.jpg)
 
 - A function which gets **n parameter** and print **a rhombus of size n** like below output :
 
 
-![screenshot](photos\Untitled.png)
+![screenshot](Untitled.png)
 
 - A function which gets **n parameter** and draws **Pascal's triangle up to line n** like below output :
 
 
 
-![screenshot](photos\khayam.png)
+![screenshot](khayam.png)
 
 ---
 
