@@ -12,7 +12,7 @@ You just need below libararies in specified codes :
 - [qrcode](https://pypi.org/project/qrcode/) *(QR_code.py)*
 
 
-![screen shot](user_qrcode.png) 
+![screen shot](outputs\user_qrcode.png) 
 
 
 
