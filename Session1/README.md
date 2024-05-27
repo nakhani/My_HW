@@ -12,7 +12,7 @@ You just need below libarary in specified codes :
 - [statistics](https://www.w3schools.com/python/module_statistics.asp) *(GPA.py)*
 
 
- Also other requierment include :
+ Other requirements  :
  
  - windows x64
  - python 3.9.7
@@ -21,10 +21,26 @@ You just need below libarary in specified codes :
 
 ## Usage
 
-You do not need to install above libraries because both are in python by default.
-
-If you want to run each programm, you should run this command in terminal  :
+**To run a BMI calculator  :**
 
 ```
 python BMI.py
+```
+
+**To run a GPA calculator  :**
+
+```
+python GPA.py
+```
+
+**To run a simple calculator  :**
+
+```
+python new.calculator.py
+```
+
+**To run a determining possible traingle program  :**
+
+```
+python triangle.py
 ```

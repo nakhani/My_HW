@@ -1,6 +1,6 @@
 # Session 5
 
-This session I wrote below programs:
+In this session, I wrote below programs:
 
  - A function which gets **n and m parameters** and print **n*m matrix** like below output :
 
@@ -32,7 +32,7 @@ You just need below libarary :
 - [math](https://www.w3schools.com/python/module_math.asp) *(khayam_triangle.py)*
 
 
- Also other requierments include :
+ Other requirerments  :
  
  - windows x64
  - python 3.9.7
@@ -41,10 +41,24 @@ You just need below libarary :
 
 ## Usage
 
-You do not need to install above library because It is in python by default.
+**To run first function :**
 
-If you want to run each programm, you should run this command in terminal  :
+```
+python star_table.py
+```
+
+**To run second function :**
+
+```
+python multiply_table.py
+```
+**To run third function :**
 
 ```
 python diamond.py
+```
+**To run fourth function :**
+
+```
+python khayam_triangle.py
 ```

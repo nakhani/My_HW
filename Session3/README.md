@@ -12,7 +12,7 @@ You just need below libarary in specified codes :
 
 
 
- Also other requierment include :
+ Other requirements  :
  
  - windows x64
  - python 3.9.7
@@ -21,10 +21,46 @@ You just need below libarary in specified codes :
 
 ## Usage
 
-You do not need to install above library because It is in python by default.
 
-If you want to run each program, you should run this command in terminal  :
+**To run a GCM calculator  :**
 
 ```
 python GCM.py
+```
+
+**To run a LCM calculator  :**
+
+```
+python LCM.py
+```
+
+**To run a Hangman Game  :**
+
+```
+python hangman.py
+```
+
+**To run a Random Number producer  :**
+
+```
+python randnum.py
+```
+
+
+**To run a Snake Game  :**
+
+```
+python snake.py
+```
+
+**To run a list sorter  :**
+
+```
+python sorted_list.py
+```
+
+**To run a Snake Game  :**
+
+```
+python word counte.py
 ```

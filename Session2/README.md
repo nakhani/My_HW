@@ -13,7 +13,7 @@ You just need below libarary in specified codes :
 
 
 
- Also other requierment include :
+ Other requirements  :
  
  - windows x64
  - python 3.9.7
@@ -22,10 +22,44 @@ You just need below libarary in specified codes :
 
 ## Usage
 
-You do not need to install above libraries because both are in python by default.
-
-If you want to run each programm, you should run this command in terminal  :
+**To run a Dice program  :**
 
 ```
 python Dice.py
+```
+
+**To run a GPA calculator  :**
+
+```
+python GPA2.py
+```
+
+**To run a fibonacci calculator  :**
+
+```
+python fibonacci.py
+```
+
+**To run a Guess Number Game  :**
+
+```
+python guess_number.py
+```
+
+**To run a hour-second converter  :**
+
+```
+python hour_to_second.py
+```
+
+**To run a Rock-Paper Game  :**
+
+```
+python rock_paper.py
+```
+
+**To run a second-hour converter  :**
+
+```
+python secon_to_hour.py
 ```
