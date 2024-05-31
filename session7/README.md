@@ -10,7 +10,7 @@ In this session, I wrote a **store program** which has below features:
  - *Buy products* 
  - *Products QRcode* 
 
-![screenshot](photos\Untitled.png)
+![screenshot](photos/Untitled.png)
 
 ---
 
@@ -19,11 +19,11 @@ I use below libraries :
 
 - [qrcode](https://pypi.org/project/qrcode/)   
 
-![screenshot](photos\user_qrcode.png)
+![screenshot](photos/user_qrcode.png)
 
 - [pyfiglet](https://www.geeksforgeeks.org/python-ascii-art-using-pyfiglet-module/) 
 
-![screenshot](photos\DKWct.png)
+![screenshot](photos/DKWct.png)
 
 - [termcolor](https://pypi.org/project/termcolor/)  
 
