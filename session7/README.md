@@ -1,4 +1,4 @@
-# Session 6
+# Session 7
 
 In this session, I wrote a **store program** which has below features:
 
@@ -10,7 +10,7 @@ In this session, I wrote a **store program** which has below features:
  - *Buy products* 
  - *Products QRcode* 
 
-![screenshot](images.jfif)
+![screenshot](photos\Untitled.png)
 
 ---
 
