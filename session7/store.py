@@ -96,10 +96,10 @@ def QR_CODE():
 
 
 def buy():
+  print(colored("_____________________________________________________\n",color="light_grey"))
   list = []
   count = 0
   while True:
-    print(colored("_____________________________________________________\n",color="light_grey"))
     code = input("Enter Product CODE:")
     for product in PRODUCTS:
        if product["code"] == code:
@@ -114,12 +114,12 @@ def buy():
            b = {"code": product["code"], "name": product["name"],"number": num,"price":cost}
            list.append(b)
            break
-    else:
-        print(colored("Not Found\n",color="light_red")) 
+       else:
+          print(colored("Not Found\n",color="light_red")) 
     
     conti = input("Do you want to continue?Y/N  ").lower()
-    if conti == "n" or "N": 
-      break
+    if conti == "n": 
+        break
 #factor
   print (colored("code \t\t name \t\t number \t price", color="yellow"))
   for product in list:
