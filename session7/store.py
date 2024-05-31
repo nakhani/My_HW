@@ -114,7 +114,7 @@ def buy():
            b = {"code": product["code"], "name": product["name"],"number": num,"price":cost}
            list.append(b)
            break
-       else:
+    else:
           print(colored("Not Found\n",color="light_red")) 
     
     conti = input("Do you want to continue?Y/N  ").lower()
