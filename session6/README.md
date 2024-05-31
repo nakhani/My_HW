@@ -13,7 +13,7 @@ In this session, I wrote below programs:
 
 - **Cubic Equation Calculator**
 
-- **CQuadratic Equation Calculator** 
+- **Quadratic Equation Calculator** 
 
 ---
 
@@ -34,9 +34,9 @@ I use below libraries in each specific program:
 
 ## Usage
 
-**First install needed libararies :**
+**First install needed libraries :**
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 **To run TicTacToe Game :**
