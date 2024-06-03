@@ -10,6 +10,7 @@ In this session, I wrote a **Translator Program** which has below features:
 
 ![screenshot](outputs/Untitled.png)
 
+- And also I wrote **GIF creator** and **Text to Voice convertor** 
 
 ---
 
