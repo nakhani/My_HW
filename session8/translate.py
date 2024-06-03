@@ -85,7 +85,7 @@ def write_in_file():
    print("File " + filename + " is not available, please upload the file.")
  
 def show_menu():
-  print(colored(pyfiglet.figlet_format("\nwelcome to my translate", font = "doom"), color="light_yellow"))
+  print(colored(pyfiglet.figlet_format("\nWelcome To My Translator", font = "doom"), color="light_yellow"))
   print(colored("menu", color="light_cyan"))
   print("1_Translate English To Persian")
   print("2_Translate Persian To English")
