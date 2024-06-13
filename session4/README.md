@@ -11,8 +11,8 @@ You just need below libararies in specified codes :
 - [instaloader](https://instaloader.github.io/as-module.html) and [getpass](https://docs.python.org/3/library/getpass.html) *(instagram_new_followers_finder.py)*
 - [qrcode](https://pypi.org/project/qrcode/) *(QR_code.py)*
 
+<img src="outputs/user_qrcode.png" width="150">
 
-![screen shot](outputs/user_qrcode.png) 
 
 
 

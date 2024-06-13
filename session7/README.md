@@ -10,20 +10,21 @@ In this session, I wrote a **store program** which has below features:
  - *Buy products* 
  - *Products QRcode* 
 
-![screenshot](photos/Untitled.png)
+<img src="photos/Untitled.png" width="350">
+
 
 ---
 
 ## Python
 I use below libraries :
 
-- [qrcode](https://pypi.org/project/qrcode/)   
+- [qrcode](https://pypi.org/project/qrcode/) 
 
-![screenshot](photos/user_qrcode.png)
+<img src="photos/user_qrcode.png" width="150">
 
-- [pyfiglet](https://www.geeksforgeeks.org/python-ascii-art-using-pyfiglet-module/) 
+- [pyfiglet](https://www.geeksforgeeks.org/python-ascii-art-using-pyfiglet-module/)
 
-![screenshot](photos/DKWct.png)
+<img src="photos/DKWct.png" width="160">
 
 - [termcolor](https://pypi.org/project/termcolor/)  
 

@@ -4,24 +4,21 @@ In this session, I wrote below programs:
 
  - A function which gets **n and m parameters** and print **n*m matrix** like below output :
 
-
-![screenshot](photos/table.png)
+<img src="photos/table.png" width="250">
 
 - A function which gets **n and m parameters** and print **n*m multiplication matrix** like below output :
 
-
-![screenshot](photos/photo_5947562693529550724_y.jpg)
+<img src="photos/photo_5947562693529550724_y.jpg" width="250">
 
 - A function which gets **n parameter** and print **a rhombus of size n** like below output :
 
-
-![screenshot](photos/Untitled.png)
+<img src="photos/Untitled.png" width="250" height= 250>
 
 - A function which gets **n parameter** and draws **Pascal's triangle up to line n** like below output :
 
 
+<img src="photos/khayam.png" width="250">
 
-![screenshot](photos/khayam.png)
 
 ---
 

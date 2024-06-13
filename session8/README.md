@@ -7,8 +7,7 @@ In this session, I wrote a **Translator Program** which has below features:
  - *Add New Word* 
  - *Convert Translated text to voice* 
  
-
-![screenshot](outputs/Untitled.png)
+<img src="outputs/Untitled.png" width="350">
 
 - And also I wrote **GIF creator** and **Text to Voice convertor** 
 

@@ -9,10 +9,9 @@ In this session, I wrote a **Telegram Bot** which has below features:
  - *Convert text to voice* 
  - *Calculate ARGMAX number* 
  
+<img src="photo/photo_6003509779340836840_y.jpg" width="150">
+<img src="photo/photo_6003509779340836839_y.jpg" width="145">
 
-![screenshot](photo/photo_6003509779340836840_y.jpg)
-
-![screenshot](photo/photo_6003509779340836839_y.jpg)
 
 
 
@@ -25,12 +24,13 @@ I use below libraries :
 - [khayyam](https://pypi.org/project/Khayyam/)  
 - [qrcode](https://pypi.org/project/qrcode/)
 
+<img src="photo/images.png" width="145">
 
-![screen shot](photo/images.png) 
 
 - [telebot](https://pypi.org/project/pyTelegramBotAPI/)
 
-![screen shot](photo/start.png) 
+<img src="photo/start.png" width="300">
+ 
 
 ---
 
@@ -44,7 +44,7 @@ pip install -r requirements.txt
 **To run Telegram Bot :**
 
 ```
-python telegrambot.py or Telebot.ipynb
+python telegrambot.py 
 ```
 
 
