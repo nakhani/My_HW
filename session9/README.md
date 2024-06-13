@@ -9,8 +9,7 @@ In this session, I wrote a **Telegram Bot** which has below features:
  - *Convert text to voice* 
  - *Calculate ARGMAX number* 
  
-<img src="photo/photo_6003509779340836840_y.jpg" width="150">
-<img src="photo/photo_6003509779340836839_y.jpg" width="145">
+<img src="photo/photo_6003509779340836840_y.jpg" width="150"><img src="photo/photo_6003509779340836839_y.jpg" width="145">
 
 
 
