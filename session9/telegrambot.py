@@ -5,7 +5,7 @@ import gtts
 import qrcode
 from khayyam import JalaliDate, JalaliDatetime 
 
-bot = telebot.TeleBot("5702800312:AAGzHJ5kGLjeC8KRUgwdCi74zMB9wbELiJw", parse_mode=None)
+bot = telebot.TeleBot("Your Bot Token", parse_mode=None)
 
 markup = telebot.types.ReplyKeyboardMarkup(row_width=7)
 key_1 = telebot.types.KeyboardButton('/start')
