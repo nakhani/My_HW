@@ -29,5 +29,5 @@ In this session, I wrote below programs with object oriented programming:
 ---
 
 > [!WARNING]
-> These programs are just Demo, You can not run them
+> These programs are not complete So You cannot run them
 
