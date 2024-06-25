@@ -4,18 +4,41 @@ class Timeee:
         self.hour = hh
         self.minute = mm
         self.second = ss
-     
+        self.fix()
        
 
+    def  show(self):
+       print(self.hour,":",self.minute,":",self.second)
 
-    def conv_to_other_times (self,ho1,min1,sec1):
-        ...
-    def difference (self,ho1,min1,sec1,ho2,min2,sec2):
-        ...
-    def convert_to_second (self,ho1,min1,sec1):
-        ...
-    def convert_to_hour (self,sec1):
-        ...
+    def sum (self, other):
+        new_s = self.second + other.second
+        new_m = self.minute + other.minute
+        new_h = self.hour + other.hour
+        result = Timeee(new_s,new_m,new_h)
+        return result
+    
+    def sub (self,other):
+        new_s = self.second - other.second
+        new_m = self.minute - other.minute
+        new_h = self.hour - other.hour
+        result = Timeee(new_s,new_m,new_h)
+        return result
+    
+    def second_to_hour (self):
+        while self.second >= 60:
+           self.second -= 60
+           self.minute += 1
+           while self.minute >= 60:
+            self.minute -= 60
+            self.hour += 1
+
+        result = Timeee(self.hour,self.minute,self.second)
+        return result
+
+    def hour_to_second (self):
+        self.second = self.hour * 3600 + self.minute * 60 + self.second
+        return self.second
+    
     def fix(self):
       if self.second >= 60:
         self.second -= 60
@@ -33,42 +56,33 @@ class Timeee:
         self.second += 60
         self.minute -= 1
 
-def show_menu():
-  print("1_convert to other times")
-  print("2_calculate difference")
-  print("3_convert to second")
-  print("4_convert to hour")
-  print("5_exit")
+    def gmt(self):
+       teh_h = self.hour + 3
+       teh_m = self.minute + 30
+       teh_s = self.second 
+       result = Timeee(teh_h,teh_m,teh_s)
+       return result
+    
 
+a = Timeee(3,75,17)
+a.show()
 
-def main():
- 
-  while True:
+b = Timeee(4,50,2)
+b.show()
 
-    show_menu()
-    choice = int(input("enter your choice:"))
-    if choice == 1 :
-      hour1 = int(input("enter hour:"))
-      minute1 = int(input("enter minute:"))
-      second1 = int(input("enter second:"))
-      result = Timeee.conv_to_other_times(hour1,minute1,second1)
-    elif choice == 2:
-      hour1 = int(input("enter first hour:"))
-      minute1 = int(input("enter first minute:"))
-      second1 = int(input("enter first second:"))
-      hour2 = int(input("enter second hour:"))
-      minute2 = int(input("enter second minute:"))
-      second2 = int(input("enter second second:"))
-      result = Timeee.differance(hour1,minute1,second1,hour2,minute2,second2)
-    elif choice == 3:
-      hour1 = int(input("enter hour:"))
-      minute1 = int(input("enter minute:"))
-      second1 = int(input("enter second:"))
-      result = Timeee.convert_to_second(hour1,minute1,second1)
-    elif choice == 4:
-      second1 = int(input("enter second:"))
-      result = Timeee.convert_to_second(second1)
-    elif choice == 6:
-     exit()
+c = a.sub(b)
+c.show()
 
-    print (result)
+p = a.sub(b)
+p.show()
+
+d = Timeee (0,0,2500)
+e = d.second_to_hour()
+e.show()
+
+h = b.hour_to_second()
+print(h)
+
+z = Timeee (12,20,30)
+f = z.gmt()
+f.show()
