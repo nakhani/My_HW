@@ -1,62 +1,58 @@
 # Session 11
 
-In session 11, I wrote **list reverser**, **unfollowers finder**, **QRcode producer**, **duplicates remover** and **factorial calculator**.
+In this session, I wrote below programs with object oriented programming:
 
----
+ - **Calculate Fractions**, This program calculates below operators between fractions:
 
-## Python
+    - *Sum*
+    - *Division*
+    - *Subtraction*
+    - *Multiplication*
+    - *Fraction number*
+    - *Conventionalize*
 
-You just need below libararies in specified codes :
+ - **Convert Time**, This Program converts and calculates time: 
 
-- [instaloader](https://instaloader.github.io/as-module.html) and [getpass](https://docs.python.org/3/library/getpass.html) *(instagram_new_followers_finder.py)*
-- [qrcode](https://pypi.org/project/qrcode/) *(QR_code.py)*
+    - *To GMT Time*
+    - *Subtraction*
+    - *To Second*
+    - *To Hour*
+    - *Sum*
 
-<img src="outputs/user_qrcode.png" width="150">
+    
+ - **Calculate complex number**, This program calculates below operators between complex numbers: 
+
+    - *Sum*
+    - *Subtraction*
+    - *Multiplication*
 
 
+- **Carpet**, This program draws a n*n carpet shape if n is odd, like below output:
 
-
- Other requirements  :
- 
- - windows x64
- - python 3.9.7
+<img src="outputs/Untitled.png" width="350">
 
 ---
 
 ## Usage
 
-**To install instaloader library :**
+**To run Calculate Fractions Program :**
 
 ```
-pip install instaloader
+python fract.py
 ```
-**To install  QRcode library :**
+**To run Convert Time program :**
 
 ```
-pip install qrcode
+python timee.py
 ```
-**To run a factorial calculator   :**
+**To run Calculate complex number program :**
 
 ```
-python factorial.py
+python complex.py
 ```
-**To run a unfollowers finder   :**
+**To run carpet program :**
 
 ```
-python instagram_new_followers_finder.py
+python carpet.py
 ```
-**To run a duplicates remover   :**
 
-```
-python remove duplicates.py
-```
-**To run a list reverser   :**
-
-```
-python reverse_list.py
-```
-**To run a QRcode producer   :**
-
-```
-python QR_code.py
-```
