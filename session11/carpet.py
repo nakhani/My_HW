@@ -2,7 +2,7 @@ def carpet(n):
     if n % 2 == 0:
         print("Please enter an odd number.")
         return
-    outer_symbol = "🔘"
+    outer_symbol = "🌸"
     middle_symbol1 = "🟣"
     middle_symbol2 = "🔵"
     middle_symbol3 = "🟤"

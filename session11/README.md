@@ -29,7 +29,7 @@ In this session, I wrote below programs with object oriented programming:
 
 - **Carpet**, This program draws a n*n carpet shape if n is odd, like below output:
 
-<img src="outputs/Untitled.png" width="350">
+<img src="photo_6046114454757819110_m.jpg" width="200">
 
 ---
 
