@@ -1,8 +1,9 @@
-Casablanca,Michael Curtiz,46,https://www.youtube.com/watch?v=herRuccntNE, 01h42m,Humphrey Bogart,Ingrid Bergman,Paul Henreid,Claude Rains
-Interstellar,Christopher Nolan,22,https://www.youtube.com, 02h49m,Matthew McConaughey,Anne Hathaway
-The Wolf of Wall Street,Martin Scorsese,132,https://www.youtube.com, 03h00m,Leonardo DiCaprio,Jonah Hill,Margot Robbie
-The Shawshank Redemption,Frank Darabont,1,https://www.youtube.com, 02h22m,Tim Robbins,Morgan Freeman
-The Godfather,Francis Ford Coppola,2,https://www.youtube.com, 02h55m,Marlon Brando,Al Pacino
-Inception,Christopher Nolan,14,https://www.youtube.com/watch?v=herRuccntNE, 02h28m,Leonardo DiCaprio,Joseph Gordon-Levitt,Cillian Murphy
-The Matrix,Lana Wachowski,16,https://www.youtube.com, 02h16m,Keanu Reeves,Laurence Fishburne,Carrie-Anne Moss
-The Green Mile,Frank Darabont,28,https://www.youtube.com, 03h09m,Tom Hanks
+The wandering earth,Frant Gwo,6,https://www.youtube.com/watch?v=0TDII5IkI3Y, 02h06m,Jing Wu,Man-Tat Ng,Zhi Wang,Cixin Liu
+Interstellar,Christopher Nolan,9,https://www.youtube.com/watch?v=zSWdZVtXT7E, 02h49m,Matthew McConaughey,Anne Hathaway
+Everything Everywhere All at Once,Daniel Kwan,8,https://www.youtube.com/watch?v=wxN1T1uxQ2g, 02h19m,LMichelle Yeoh,Ke Huy Quan,Stephanie Hsu
+Oxygen,Alexandre Aja,7,https://www.youtube.com/watch?v=8IqXgZd-P98, 01h41m,Mélanie Laurent,Mathieu Amalric
+Dune1,Denis Villeneuve,8,https://www.youtube.com/watch?v=8g18jFHCLXk, 02h35m,Timothée Chalamet,Zendaya
+Inception,Christopher Nolan,9,https://www.youtube.com/watch?v=YoHD9XEInc0, 02h28m,Leonardo DiCaprio,Joseph Gordon-Levitt,Cillian Murphy
+The Matrix,Lana Wachowski,9,https://www.youtube.com/watch?v=vKQi3bBA1y8, 02h16m,Keanu Reeves,Laurence Fishburne,Carrie-Anne Moss
+Poor Things,Yorgos Lanthimos,8,https://www.youtube.com/watch?v=RlbR5N6veqw, 02h21m,Emma Stone,Mark Ruffalo,Willem Dafoe
+

@@ -11,19 +11,17 @@ class Actor():
     #methods
     def show(self):
         print("name & surname:", self.name,self.surname, "  born:", self.birth_date, "  birth country:", self.birth_country)
-
-    def movie(self):
-        f = open ("database.txt", "r")
-        actor_movies=[]
-        
-        for line in f:
-            result = line.split (",")
-            
-            movie = result[0]
-            actors = result[5:len(result):1]
-            
-            if self.name in actors:
-                actor_movies.append(movie)
-
-        print(actor_movies)
-        f.close()
+    
+    
+    @staticmethod
+    def actor():
+     CAST = []
+     while True:
+        Q = input("Do you want to add any cast? (y/n)")
+        if Q == "y":       
+            cast = input("enter cast: ")
+            CAST.append(cast)
+        elif Q == "n":
+            return CAST
+        else :
+           print("Please  enter y/n")

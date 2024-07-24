@@ -1,11 +1,12 @@
 
 import pyfiglet 
-from termcolor import colored
-from media import Media         
+from termcolor import colored       
 from dataset import Dataset
 from product import Product
+from media import Media
 
-db=Dataset("My_HW/session12/database.txt")
+db=Dataset("database.txt")
+
 def show():
     print(colored("_____________________________________________________\n",color="light_grey"))
     print(colored("Menu:", color="light_cyan"))
@@ -13,8 +14,9 @@ def show():
     print("2_Edit")
     print("3_Remove")
     print("4_Search")
-    print("5_show List")
-    print("6_Exit\n")
+    print("5_Show List")
+    print("6_Download")
+    print("7_Exit\n")
 
 def main():
  title = colored(pyfiglet.figlet_format("StellaMovie", font = "doom"), color="light_yellow")
@@ -39,6 +41,8 @@ def main():
   elif choice == 5:
         Product.showlist()
   elif choice == 6:
+        Product.download()
+  elif choice == 7:
         db.write()
         exit(0)
          
