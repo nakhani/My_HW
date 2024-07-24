@@ -15,7 +15,7 @@ In this session, I wrote a **media program** which has below features:
 
 ---
 > [!NOTE]
-> Some .py files such as **documentary.py** , **clip.py** , **film.py** , **series.py** are not use in this program, They are written just as a exercise to learn object oriented method.
+> Some .py files such as **documentary.py** , **clip.py** , **film.py** , **series.py** are not used in this program, They are written just as a exercise to learn object oriented method.
 
 ## Usage
 
