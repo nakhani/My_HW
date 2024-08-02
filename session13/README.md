@@ -26,7 +26,7 @@ pip install -r requirements.txt
 **To run Spaceship GAME:**
 
 ```
-python spaceship.py
+python spaceship_game.py
 ```
 **To run second program:**
 
