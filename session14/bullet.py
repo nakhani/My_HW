@@ -1,6 +1,5 @@
 
 import arcade
-from enemy import Enemy
 
 class Bullet(arcade.Sprite):
     def __init__(self, host):
