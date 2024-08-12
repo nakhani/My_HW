@@ -1,13 +1,12 @@
-# Session 13
+# Session 14
 
-In this session, I wrote a **Spaceship GAME** which has below output:
+In this session, I complete a **Spaceship GAME** which has below output:
   
-<img src="photos\space.png" width="350">
+<img src="photos\game.png" width="300">
+
+And its feature is:
 
 
-Another program is about showing below output:
-  
-<img src="photos\Untitled.png" width="350" height="346">
 
 
 ---
@@ -27,10 +26,5 @@ pip install -r requirements.txt
 
 ```
 python spaceship_game.py
-```
-**To run second program:**
-
-```
-python box.py
 ```
 
