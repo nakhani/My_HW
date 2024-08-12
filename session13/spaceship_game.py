@@ -1,6 +1,8 @@
 import arcade
+import pickle
 from spaceship import Spaceship
 from enemy import Enemy
+import json
 
 
 class Game(arcade.Window):
@@ -10,7 +12,6 @@ class Game(arcade.Window):
         self.background = arcade.load_texture(":resources:images/backgrounds/stars.png")
         self.me = Spaceship(self)
         self.enemy = Enemy(self)
-
 
     def on_draw(self):
         arcade.start_render()
@@ -30,5 +31,9 @@ class Game(arcade.Window):
 
 window = Game()
 arcade.run()
+
+
+
+
 
 
