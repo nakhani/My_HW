@@ -10,7 +10,7 @@ My program has below features:
 - If each enemy passes your territory, you lose one of your hearts
 - If you collide with each enemy, it is **GAME OVER**
 - If you lose your 3 hearts, it is **GAME OVER** 
-- if you earn 10 points,you **WIN**
+- If you earn 10 points, you **WIN**
 
 
 
