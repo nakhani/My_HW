@@ -1,15 +1,16 @@
 # Session 14
 
-In this session, I complete a **Spaceship GAME** which has below output:
+In this session, I completed a **Spaceship GAME** which has below output:
   
 <img src="photos\game.png" width="300">
 
-My program has below feature:
+My program has below features:
 
 - If bullets fired from a spaceship hit each enemy, you earn 1 point
 - If each enemy passes your territory, you lose one of your hearts
 - If you collide with each enemy, it is **GAME OVER**
 - If you lose your 3 hearts, it is **GAME OVER** 
+- if you earn 10 points,you **WIN**
 
 
 
