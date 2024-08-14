@@ -90,7 +90,7 @@ class Game(arcade.Window):
 
         self.me.move()
 
-        if self.score == 2:
+        if self.score == 10:
             self.flag = 2
 
         for bullet in self.me.bullets:
