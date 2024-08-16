@@ -8,7 +8,7 @@ My program has below features:
 
 - If bullets fired from a spaceship hit each enemy, you earn 1 point
 - If each enemy passes your territory, you lose one of your hearts
-- If you collide with each enemy, it is **GAME OVER**
+- If spaceship collides with each enemy, it is **GAME OVER**
 - If you lose your 3 hearts, it is **GAME OVER** 
 - If you earn 10 points, you **WIN**
 
