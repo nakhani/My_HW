@@ -12,7 +12,6 @@ My program has below features:
 - If snake collides with each wall, it is **GAME OVER**
 - If snake collides with his body, it is **GAME OVER**
 - If score reaches to 0, it is **GAME OVER** 
-- If you earn 10 points, you **WIN**
 - In AI version, snake moves automatic and eats food
 
 
