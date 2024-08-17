@@ -2,9 +2,10 @@
 
 In this session, I completed a **Snake GAME** which has below output:
   
-<img src="photos\game.png" width="300">
+<img src="photos\Untitled.png" width="300">
 
-My program has below features:
+
+My program has below **features**:
 
 - If snake eats spider, you earn 1 point
 - If snake eats spider, you earn 2 points
