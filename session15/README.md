@@ -8,8 +8,8 @@ In this session, I completed a **Snake GAME** which has below output:
 My program has below **features**:
 
 - If snake eats spider, you earn 1 point
-- If snake eats spider, you earn 2 points
-- If snake eats spider, you lose 1 point
+- If snake eats frog, you earn 2 points
+- If snake eats shit, you lose 1 point
 - If snake collides with each wall, it is **GAME OVER**
 - If snake collides with his body, it is **GAME OVER**
 - If score reaches to 0, it is **GAME OVER** 

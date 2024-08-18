@@ -59,6 +59,11 @@ class Game(arcade.Window):
              self.food = []
              self.foodd()
 
+        for  i,part in enumerate(self.snake.body):
+                for j in range(i + 1, len(self.snake.body)):
+                    if part['X'] == self.snake.body[j]['X'] and part['Y'] == self.snake.body[j]['Y']:
+                        self.flag = 1
+
         if (self.snake.center_x < 0 or self.snake.center_x > 500 or 
             self.snake.center_y < 0 or self.snake.center_y > 500 or self.snake.score < 0):
                 self.flag = 1
@@ -79,6 +84,8 @@ class Game(arcade.Window):
         if symbol== arcade.key.RIGHT:
             self.snake.change_x = 1
             self.snake.change_y = 0
+            
+
 
 
 
