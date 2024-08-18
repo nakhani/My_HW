@@ -37,3 +37,8 @@ class Snake(arcade.Sprite):
         self.score += food.score
         del food
         
+
+    def choose_direction(self):
+         return random.choice ([(0,1),(1,0),(0,-1),(-1,0)])
+
+
