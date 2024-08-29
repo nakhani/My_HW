@@ -15,7 +15,7 @@ My program has below **features**:
 
 Also I wrote **Breakout GAME** with below output:
 
-<img src="photos\Untitled.png" width="300">
+<img src="photo\break.png" width="300">
 
 
 Its **features**:
