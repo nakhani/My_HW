@@ -44,22 +44,30 @@ class Ball(arcade.Sprite):
 
 
 class Logo(arcade.Sprite):
-     def __init__(self,x,y):
-        super().__init__("photo/lego.png")
-        #self.shape1 = arcade.load_texture("photo/lego.png")
-        #self.shape2 = arcade.load_texture("photo/2.png")
-        #self.shape3 = arcade.load_texture("photo/3.png")
-        #self.shape4 = arcade.load_texture("photo/4.png")
-        #self.shape5 = arcade.load_texture("photo/5.png")
-        #self.list_shapes = [self.shape1,self.shape2,self.shape3,self.shape4,self.shape5]
+     def __init__(self,x,y,s):
+        super().__init__()
+        self.shape1 = arcade.load_texture("photo/lego.png")
+        self.shape2 = arcade.load_texture("photo/2.png")
+        self.shape3 = arcade.load_texture("photo/3.png")
+        self.shape4 = arcade.load_texture("photo/4.png")
+        self.shape5 = arcade.load_texture("photo/5.png")
         self.center_x = x
         self.center_y = y
         self.width = 40
         self.height = 40
+        self.select = s
 
-     #def draw (self):
-         #for shape in self.list_shapes:
-                 #arcade.draw_texture_rectangle(self.width,self.height,self.center_x,self.center_y,self.shape1)
+     def draw (self):
+         if self.select == 1:
+            arcade.draw_scaled_texture_rectangle(self.center_x,self.center_y,self.shape5,.9)
+         if self.select == 2:
+            arcade.draw_scaled_texture_rectangle(self.center_x,self.center_y,self.shape4,.9)
+         if self.select == 3:
+            arcade.draw_scaled_texture_rectangle(self.center_x,self.center_y,self.shape3,.9)
+         if self.select == 4:
+            arcade.draw_scaled_texture_rectangle(self.center_x,self.center_y,self.shape2,.9)
+         if self.select == 5:
+            arcade.draw_scaled_texture_rectangle(self.center_x,self.center_y,self.shape1,.9)
                  
         
     
@@ -85,6 +93,7 @@ class Game(arcade.Window):
        self.flag = 0
        self.x=20
        self.y=300
+       self.s =1
        self.blocks = []
        self.run_update = True
        self.heart_list = []
@@ -95,12 +104,29 @@ class Game(arcade.Window):
                self.shape_x += 46
 
        for i in range(5):
-            for _ in range(18):
-                self.block = Logo(self.x, self.y)
+            for j in range(18):
+                if i == 0:
+                 self.block = Logo(self.x, self.y,self.s)
+
+                elif i == 1:  
+                 self.block = Logo(self.x, self.y,self.s)
+                 
+                elif i == 2:  
+                 self.block = Logo(self.x, self.y,self.s)
+                 
+                elif i == 3:  
+                 self.block = Logo(self.x, self.y,self.s)
+                 
+                elif i == 4:  
+                 self.block = Logo(self.x, self.y,self.s)
+                 
+                self.x += 30 
                 self.blocks.append(self.block)
-                self.x += 30                
+            self.s += 1            
             self.y += 35
             self.x = 20
+
+       
 
    def on_draw(self):
       arcade.start_render()
@@ -133,7 +159,6 @@ class Game(arcade.Window):
       
       self.player.move()
       self.ball.move()
-
  
       if self.ball.center_x < 30 or self.ball.center_x > self.width - 30 :
             self.ball.change_x *= -1 
