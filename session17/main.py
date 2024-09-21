@@ -2,28 +2,29 @@ import math
 from PySide6.QtWidgets import QApplication
 from PySide6.QtUiTools import QUiLoader
 
+
 global flg 
 flg = 0
 
 def sub():
     global num1, a
-    if(main_window.screen.text()==""): main_window.screen.settext("0")
+    if(main_window.screen.text()==""): main_window.screen.setText("0")
     num1 = float(main_window.screen.text())
-    main_window.txt_1.setText("")
+    main_window.screen.setText("")
     a = "-"
 
 def div():
     global num1, a
     if(main_window.screen.text()==""): main_window.screen.setText("0")
     num1 = float(main_window.screen.text())
-    main_window.txt_1.setText("")
+    main_window.screen.setText("")
     a= "/"
 
 def sum():
     global num1, a
     if(main_window.screen.text()==""): main_window.screen.setText("0")
     num1 = float(main_window.screen.text())
-    main_window.txt_1.setText("")
+    main_window.screen.setText("")
     a= "+"
 
 def sin():
@@ -47,7 +48,7 @@ def mul():
     global num1, a
     if(main_window.screen.text()==""): main_window.screen.setText("0")
     num1 = float(main_window.screen.text())
-    main_window.txt_1.setText("")
+    main_window.screen.setText("")
     a="*"
 
 def result():
@@ -88,6 +89,7 @@ def zero():
         main_window.screen.setText(main_window.screen.text()+'0')
 
 def one():
+    global flg
     if(flg):
         main_window.screen.setText('1')
         flg=0
@@ -95,6 +97,8 @@ def one():
         main_window.screen.setText(main_window.screen.text()+'1')
 
 def two():
+    global flg
+    global flg
     if(flg):
         main_window.screen.setText('2')
         flg=0
@@ -102,6 +106,7 @@ def two():
         main_window.screen.setText(main_window.screen.text()+'2')
 
 def three():
+    global flg
     if(flg):
         main_window.screen.setText('3')
         flg=0
@@ -109,6 +114,7 @@ def three():
         main_window.screen.setText(main_window.screen.text()+'3')
 
 def four():
+    global flg
     if(flg):
         main_window.screen.setText('4')
         flg=0
@@ -116,6 +122,7 @@ def four():
        main_window.screen.setText(main_window.screen.text()+'4')
 
 def five():
+    global flg
     if(flg):
         main_window.screen.setText('5')
         flg=0
@@ -123,6 +130,7 @@ def five():
         main_window.screen.setText(main_window.screen.text()+'5')
 
 def six():
+    global flg
     if(flg):
         main_window.screen.setText('6')
         flg=0
@@ -130,6 +138,7 @@ def six():
         main_window.screen.setText(main_window.screen.text()+'6')
 
 def seven():
+    global flg
     if(flg):
         main_window.screen.setText('7')
         flg=0
@@ -137,6 +146,7 @@ def seven():
         main_window.screen.setText(main_window.screen.text()+'7')
 
 def eight():
+    global flg
     if(flg):
         main_window.screen.setText('8')
         flg=0
@@ -144,6 +154,7 @@ def eight():
         main_window.screen.setText(main_window.screen.text()+'8')
 
 def nine():
+    global flg
     if(flg):
         main_window.screen.setText('9')
         flg=0
@@ -153,13 +164,14 @@ def nine():
 def decimal_point():
     main_window.screen.setText(main_window.screen.text()+'.')
 
-app = QApplication([])
 loader = QUiLoader()
+app = QApplication([])
+
 main_window = loader.load("main.ui")
-main_window.show()
+
 main_window.sub.clicked.connect(sub)
-main_window.sum.clicked.connect(sum)
-main_window.mul.clicked.connect(mul)
+main_window.plus.clicked.connect(sum)
+main_window.pushButton_13.clicked.connect(mul)
 main_window.div.clicked.connect(div)
 main_window.sin.clicked.connect(sin)
 main_window.cos.clicked.connect(cos)
@@ -167,7 +179,7 @@ main_window.tan.clicked.connect(tan)
 main_window.cos.clicked.connect(cos)
 main_window.AC.clicked.connect(AC)
 main_window.equal.clicked.connect(result)
-main_window.zero.clicked.connect(zero)
+main_window.ziro.clicked.connect(zero)
 main_window.one.clicked.connect(one)
 main_window.two.clicked.connect(two)
 main_window.three.clicked.connect(three)
@@ -178,9 +190,9 @@ main_window.seven.clicked.connect(seven)
 main_window.eight.clicked.connect(eight)
 main_window.nine.clicked.connect(nine)
 main_window.point.clicked.connect(decimal_point)
-main_window.negative.clicked.connect(negative)
-main_window.perc.clicked.connect(perc)
+main_window.subandplus.clicked.connect(negative)
+main_window.remaine.clicked.connect(perc)
 
 
-
-app.exec_()
+main_window.show()
+app.exec()
