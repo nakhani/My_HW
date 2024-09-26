@@ -4,7 +4,7 @@
 In this session, I completed a **My calculator design** which has below output:
   
 
-<img src="photo\Untitled.png" width="300">
+<img src="Untitled.png" width="200">
 
 
 ---
