@@ -8,52 +8,52 @@ flg = 0
 
 def sub():
     global num1, a
-    if(main_window.screen.text()==""): main_window.screen.setText("0")
-    num1 = float(main_window.screen.text())
-    main_window.screen.setText("")
+    if(main_window.screentext.text()==""): main_window.screentext.setText("0")
+    num1 = float(main_window.screentext.text())
+    main_window.screentext.setText("")
     a = "-"
 
 def div():
     global num1, a
-    if(main_window.screen.text()==""): main_window.screen.setText("0")
-    num1 = float(main_window.screen.text())
-    main_window.screen.setText("")
+    if(main_window.screentext.text()==""): main_window.screentext.setText("0")
+    num1 = float(main_window.screentext.text())
+    main_window.screentext.setText("")
     a= "/"
 
 def sum():
     global num1, a
-    if(main_window.screen.text()==""): main_window.screen.setText("0")
-    num1 = float(main_window.screen.text())
-    main_window.screen.setText("")
+    if(main_window.screentext.text()==""): main_window.screentext.setText("0")
+    num1 = float(main_window.screentext.text())
+    main_window.screentext.setText("")
     a= "+"
 
 def sin():
     global flg 
-    main_window.screen.setText(str(math.sin(float(main_window.screen.text()))))
+    main_window.screentext.setText(str(math.sin(float(main_window.screentext.text()))))
     flg = 1
     
 def cos():
     global flg 
-    main_window.screen.setText(str(math.cos(float(main_window.screen.text()))))
+    main_window.screentext.setText(str(math.cos(float(main_window.screentext.text()))))
     flg = 1
 def tan():
     global flg 
-    main_window.screen.setText(str(math.tan(float(main_window.screen.text()))))
+    main_window.screentext.setText(str(math.tan(float(main_window.screentext.text()))))
     flg = 1
 def cot():
     global flg 
-    main_window.screen.setText(str(math.cot(float(main_window.screen.text()))))
+    main_window.screentext.setText(str(math.cot(float(main_window.screentext.text()))))
     flg = 1
 def mul():
     global num1, a
-    if(main_window.screen.text()==""): main_window.screen.setText("0")
-    num1 = float(main_window.screen.text())
-    main_window.screen.setText("")
+    if(main_window.screentext.text()==""): main_window.screentext.setText("0")
+    num1 = float(main_window.screentext.text())
+    main_window.screentext.setText("")
     a="*"
 
 def result():
     global flg
-    num2=float(main_window.screen.text())
+    num2=float(main_window.screentext.text())
     if a =="-":
       result = num1-num2
 
@@ -62,107 +62,111 @@ def result():
 
     elif a =="/":
       while(num2==0):
-        B=float(main_window.screen.text())
+        B=float(main_window.screentext.text())
 
       result = num1/num2
 
     elif a =="+":
       result = num1*num2
 
-    main_window.screen.setText(str(result))
+    main_window.screentext.setText(str(result))
     flg = 1
 
 def AC():
-    main_window.screen.setText("")
+    main_window.screentext.setText("")
 
 def negative():
-    ...
+    global flg
+    main_window.screentext.setText(str(float(main_window.screentext.text())*-1))
+    flg=1
 
 def perc():
-    ...
+    global flg
+    main_window.screentext.setText(str(float(main_window.screentext.text())/100))
+    flg=1
 
 def zero():
+    global flg
     if(flg):
-        main_window.screen.setText('0')
+        main_window.screentext.setText('0')
         flg =0
     else:
-        main_window.screen.setText(main_window.screen.text()+'0')
+        main_window.screentext.setText(main_window.screentext.text()+'0')
 
 def one():
     global flg
     if(flg):
-        main_window.screen.setText('1')
+        main_window.screentext.setText('1')
         flg=0
     else:
-        main_window.screen.setText(main_window.screen.text()+'1')
+        main_window.screentext.setText(main_window.screentext.text()+'1')
 
 def two():
     global flg
-    global flg
     if(flg):
-        main_window.screen.setText('2')
+        main_window.screentext.setText('2')
         flg=0
     else:
-        main_window.screen.setText(main_window.screen.text()+'2')
+        main_window.screentext.setText(main_window.screentext.text()+'2')
 
 def three():
     global flg
     if(flg):
-        main_window.screen.setText('3')
+        main_window.screentext.setText('3')
         flg=0
     else:
-        main_window.screen.setText(main_window.screen.text()+'3')
+        main_window.screentext.setText(main_window.screentext.text()+'3')
 
 def four():
     global flg
     if(flg):
-        main_window.screen.setText('4')
+        main_window.screentext.setText('4')
         flg=0
     else:
-       main_window.screen.setText(main_window.screen.text()+'4')
+       main_window.screentext.setText(main_window.screentext.text()+'4')
 
 def five():
     global flg
     if(flg):
-        main_window.screen.setText('5')
+        main_window.screentext.setText('5')
         flg=0
     else:
-        main_window.screen.setText(main_window.screen.text()+'5')
+        main_window.screentext.setText(main_window.screentext.text()+'5')
 
 def six():
     global flg
     if(flg):
-        main_window.screen.setText('6')
+        main_window.screentext.setText('6')
         flg=0
     else:
-        main_window.screen.setText(main_window.screen.text()+'6')
+        main_window.screentext.setText(main_window.screentext.text()+'6')
 
 def seven():
     global flg
     if(flg):
-        main_window.screen.setText('7')
+        main_window.screentext.setText('7')
         flg=0
     else:
-        main_window.screen.setText(main_window.screen.text()+'7')
+        main_window.screentext.setText(main_window.screentext.text()+'7')
 
 def eight():
     global flg
     if(flg):
-        main_window.screen.setText('8')
+        main_window.screentext.setText('8')
         flg=0
     else:
-        main_window.screen.setText(main_window.screen.text()+'8')
+        main_window.screentext.setText(main_window.screentext.text()+'8')
 
 def nine():
     global flg
     if(flg):
-        main_window.screen.setText('9')
+        main_window.screentext.setText('9')
         flg=0
     else:
-        main_window.screen.setText(main_window.screen.text()+'9')
+        main_window.screentext.setText(main_window.screentext.text()+'9')
     
 def decimal_point():
-    main_window.screen.setText(main_window.screen.text()+'.')
+    main_window.screentext.setText(main_window.screentext.text()+'.')
 
 loader = QUiLoader()
 app = QApplication([])
@@ -170,8 +174,8 @@ app = QApplication([])
 main_window = loader.load("main.ui")
 
 main_window.sub.clicked.connect(sub)
-main_window.plus.clicked.connect(sum)
-main_window.pushButton_13.clicked.connect(mul)
+main_window.sum.clicked.connect(sum)
+main_window.mul.clicked.connect(mul)
 main_window.div.clicked.connect(div)
 main_window.sin.clicked.connect(sin)
 main_window.cos.clicked.connect(cos)
@@ -190,8 +194,8 @@ main_window.seven.clicked.connect(seven)
 main_window.eight.clicked.connect(eight)
 main_window.nine.clicked.connect(nine)
 main_window.point.clicked.connect(decimal_point)
-main_window.subandplus.clicked.connect(negative)
-main_window.remaine.clicked.connect(perc)
+main_window.negative.clicked.connect(negative)
+main_window.perc.clicked.connect(perc)
 
 
 main_window.show()

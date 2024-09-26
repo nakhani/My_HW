@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>241</width>
-    <height>389</height>
+    <width>280</width>
+    <height>381</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -20,7 +20,7 @@
    <property name="styleSheet">
     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(233, 233, 233, 102), stop:1 rgba(255, 255, 255, 255));</string>
    </property>
-   <widget class="QTextEdit" name="screen">
+   <widget class="QTextEdit" name="screentext">
     <property name="enabled">
      <bool>false</bool>
     </property>
@@ -28,7 +28,7 @@
      <rect>
       <x>10</x>
       <y>10</y>
-      <width>221</width>
+      <width>261</width>
       <height>81</height>
      </rect>
     </property>
@@ -92,8 +92,8 @@ gridline-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>140</y>
-      <width>61</width>
+      <y>130</y>
+      <width>71</width>
       <height>51</height>
      </rect>
     </property>
@@ -127,15 +127,15 @@ background-color: rgb(154, 7, 7);</string>
      <bool>false</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="subandplus">
+   <widget class="QPushButton" name="negative">
     <property name="enabled">
      <bool>true</bool>
     </property>
     <property name="geometry">
      <rect>
-      <x>60</x>
-      <y>140</y>
-      <width>61</width>
+      <x>70</x>
+      <y>130</y>
+      <width>71</width>
       <height>51</height>
      </rect>
     </property>
@@ -157,15 +157,15 @@ background-color: rgb(154, 7, 7);</string>
      <string>+/-</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="remaine">
+   <widget class="QPushButton" name="perc">
     <property name="enabled">
      <bool>true</bool>
     </property>
     <property name="geometry">
      <rect>
-      <x>120</x>
-      <y>140</y>
-      <width>61</width>
+      <x>140</x>
+      <y>130</y>
+      <width>71</width>
       <height>51</height>
      </rect>
     </property>
@@ -189,9 +189,9 @@ color: qlineargradient(spread:pad, x1:0.199, y1:0.0852273, x2:1, y2:1, stop:0 rg
    <widget class="QPushButton" name="div">
     <property name="geometry">
      <rect>
-      <x>180</x>
-      <y>140</y>
-      <width>61</width>
+      <x>210</x>
+      <y>130</y>
+      <width>71</width>
       <height>51</height>
      </rect>
     </property>
@@ -216,8 +216,8 @@ color: qlineargradient(spread:pad, x1:0.199, y1:0.0852273, x2:1, y2:1, stop:0 rg
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>190</y>
-      <width>61</width>
+      <y>180</y>
+      <width>71</width>
       <height>51</height>
      </rect>
     </property>
@@ -228,7 +228,7 @@ color: qlineargradient(spread:pad, x1:0.199, y1:0.0852273, x2:1, y2:1, stop:0 rg
      </font>
     </property>
     <property name="autoFillBackground">
-     <bool>true</bool>
+     <bool>false</bool>
     </property>
     <property name="text">
      <string>7</string>
@@ -238,8 +238,8 @@ color: qlineargradient(spread:pad, x1:0.199, y1:0.0852273, x2:1, y2:1, stop:0 rg
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>240</y>
-      <width>61</width>
+      <y>230</y>
+      <width>71</width>
       <height>51</height>
      </rect>
     </property>
@@ -249,7 +249,7 @@ color: qlineargradient(spread:pad, x1:0.199, y1:0.0852273, x2:1, y2:1, stop:0 rg
      </font>
     </property>
     <property name="autoFillBackground">
-     <bool>true</bool>
+     <bool>false</bool>
     </property>
     <property name="text">
      <string>4</string>
@@ -259,8 +259,8 @@ color: qlineargradient(spread:pad, x1:0.199, y1:0.0852273, x2:1, y2:1, stop:0 rg
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>290</y>
-      <width>61</width>
+      <y>280</y>
+      <width>71</width>
       <height>51</height>
      </rect>
     </property>
@@ -270,7 +270,7 @@ color: qlineargradient(spread:pad, x1:0.199, y1:0.0852273, x2:1, y2:1, stop:0 rg
      </font>
     </property>
     <property name="autoFillBackground">
-     <bool>true</bool>
+     <bool>false</bool>
     </property>
     <property name="text">
      <string>1</string>
@@ -280,8 +280,8 @@ color: qlineargradient(spread:pad, x1:0.199, y1:0.0852273, x2:1, y2:1, stop:0 rg
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>340</y>
-      <width>121</width>
+      <y>330</y>
+      <width>141</width>
       <height>51</height>
      </rect>
     </property>
@@ -307,9 +307,9 @@ color: qlineargradient(spread:pad, x1:0.199, y1:0.0852273, x2:1, y2:1, stop:0 rg
     </property>
     <property name="geometry">
      <rect>
-      <x>60</x>
-      <y>190</y>
-      <width>61</width>
+      <x>70</x>
+      <y>180</y>
+      <width>71</width>
       <height>51</height>
      </rect>
     </property>
@@ -319,7 +319,7 @@ color: qlineargradient(spread:pad, x1:0.199, y1:0.0852273, x2:1, y2:1, stop:0 rg
      </font>
     </property>
     <property name="autoFillBackground">
-     <bool>true</bool>
+     <bool>false</bool>
     </property>
     <property name="text">
      <string>8</string>
@@ -328,9 +328,9 @@ color: qlineargradient(spread:pad, x1:0.199, y1:0.0852273, x2:1, y2:1, stop:0 rg
    <widget class="QPushButton" name="five">
     <property name="geometry">
      <rect>
-      <x>60</x>
-      <y>240</y>
-      <width>61</width>
+      <x>70</x>
+      <y>230</y>
+      <width>71</width>
       <height>51</height>
      </rect>
     </property>
@@ -340,7 +340,7 @@ color: qlineargradient(spread:pad, x1:0.199, y1:0.0852273, x2:1, y2:1, stop:0 rg
      </font>
     </property>
     <property name="autoFillBackground">
-     <bool>true</bool>
+     <bool>false</bool>
     </property>
     <property name="text">
      <string>5</string>
@@ -349,9 +349,9 @@ color: qlineargradient(spread:pad, x1:0.199, y1:0.0852273, x2:1, y2:1, stop:0 rg
    <widget class="QPushButton" name="two">
     <property name="geometry">
      <rect>
-      <x>60</x>
-      <y>290</y>
-      <width>61</width>
+      <x>70</x>
+      <y>280</y>
+      <width>71</width>
       <height>51</height>
      </rect>
     </property>
@@ -361,7 +361,7 @@ color: qlineargradient(spread:pad, x1:0.199, y1:0.0852273, x2:1, y2:1, stop:0 rg
      </font>
     </property>
     <property name="autoFillBackground">
-     <bool>true</bool>
+     <bool>false</bool>
     </property>
     <property name="text">
      <string>2</string>
@@ -373,9 +373,9 @@ color: qlineargradient(spread:pad, x1:0.199, y1:0.0852273, x2:1, y2:1, stop:0 rg
     </property>
     <property name="geometry">
      <rect>
-      <x>120</x>
-      <y>190</y>
-      <width>61</width>
+      <x>140</x>
+      <y>180</y>
+      <width>71</width>
       <height>51</height>
      </rect>
     </property>
@@ -385,18 +385,18 @@ color: qlineargradient(spread:pad, x1:0.199, y1:0.0852273, x2:1, y2:1, stop:0 rg
      </font>
     </property>
     <property name="autoFillBackground">
-     <bool>true</bool>
+     <bool>false</bool>
     </property>
     <property name="text">
      <string>9</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_13">
+   <widget class="QPushButton" name="mul">
     <property name="geometry">
      <rect>
-      <x>180</x>
-      <y>190</y>
-      <width>61</width>
+      <x>210</x>
+      <y>180</y>
+      <width>71</width>
       <height>51</height>
      </rect>
     </property>
@@ -416,9 +416,9 @@ color: qlineargradient(spread:pad, x1:0.199, y1:0.0852273, x2:1, y2:1, stop:0 rg
    <widget class="QPushButton" name="six">
     <property name="geometry">
      <rect>
-      <x>120</x>
-      <y>240</y>
-      <width>61</width>
+      <x>140</x>
+      <y>230</y>
+      <width>71</width>
       <height>51</height>
      </rect>
     </property>
@@ -428,7 +428,7 @@ color: qlineargradient(spread:pad, x1:0.199, y1:0.0852273, x2:1, y2:1, stop:0 rg
      </font>
     </property>
     <property name="autoFillBackground">
-     <bool>true</bool>
+     <bool>false</bool>
     </property>
     <property name="text">
      <string>6</string>
@@ -437,9 +437,9 @@ color: qlineargradient(spread:pad, x1:0.199, y1:0.0852273, x2:1, y2:1, stop:0 rg
    <widget class="QPushButton" name="three">
     <property name="geometry">
      <rect>
-      <x>120</x>
-      <y>290</y>
-      <width>61</width>
+      <x>140</x>
+      <y>280</y>
+      <width>71</width>
       <height>51</height>
      </rect>
     </property>
@@ -455,9 +455,9 @@ color: qlineargradient(spread:pad, x1:0.199, y1:0.0852273, x2:1, y2:1, stop:0 rg
    <widget class="QPushButton" name="sub">
     <property name="geometry">
      <rect>
-      <x>180</x>
-      <y>240</y>
-      <width>61</width>
+      <x>210</x>
+      <y>230</y>
+      <width>71</width>
       <height>51</height>
      </rect>
     </property>
@@ -474,12 +474,12 @@ color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(233, 233,
      <string>-</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="plus">
+   <widget class="QPushButton" name="sum">
     <property name="geometry">
      <rect>
-      <x>180</x>
-      <y>290</y>
-      <width>61</width>
+      <x>210</x>
+      <y>280</y>
+      <width>71</width>
       <height>51</height>
      </rect>
     </property>
@@ -499,9 +499,9 @@ color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(233, 233,
    <widget class="QPushButton" name="point">
     <property name="geometry">
      <rect>
-      <x>120</x>
-      <y>340</y>
-      <width>61</width>
+      <x>140</x>
+      <y>330</y>
+      <width>71</width>
       <height>51</height>
      </rect>
     </property>
@@ -524,9 +524,9 @@ color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(233, 233,
    <widget class="QPushButton" name="equal">
     <property name="geometry">
      <rect>
-      <x>180</x>
-      <y>340</y>
-      <width>61</width>
+      <x>210</x>
+      <y>330</y>
+      <width>71</width>
       <height>51</height>
      </rect>
     </property>
@@ -551,9 +551,9 @@ color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(233, 233,
     </property>
     <property name="geometry">
      <rect>
-      <x>60</x>
-      <y>110</y>
-      <width>61</width>
+      <x>70</x>
+      <y>100</y>
+      <width>71</width>
       <height>31</height>
      </rect>
     </property>
@@ -591,9 +591,9 @@ color: rgb(154, 7, 7);
     </property>
     <property name="geometry">
      <rect>
-      <x>120</x>
-      <y>110</y>
-      <width>61</width>
+      <x>140</x>
+      <y>100</y>
+      <width>71</width>
       <height>31</height>
      </rect>
     </property>
@@ -631,9 +631,9 @@ color: rgb(154, 7, 7);
     </property>
     <property name="geometry">
      <rect>
-      <x>180</x>
-      <y>110</y>
-      <width>61</width>
+      <x>210</x>
+      <y>100</y>
+      <width>71</width>
       <height>31</height>
      </rect>
     </property>
@@ -672,8 +672,8 @@ color: rgb(154, 7, 7);
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>110</y>
-      <width>61</width>
+      <y>100</y>
+      <width>71</width>
       <height>31</height>
      </rect>
     </property>
