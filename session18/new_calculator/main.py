@@ -100,7 +100,7 @@ def decimal_point():
 loader = QUiLoader()
 app = QApplication([])
 
-main_window = loader.load("main.ui")
+main_window = loader.load("new_calculator\main.ui")
 
 main_window.sub.clicked.connect(sub)
 main_window.sum.clicked.connect(sum)
