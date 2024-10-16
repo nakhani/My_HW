@@ -7,13 +7,13 @@ game_active = True
 count = 0
 player = 1
 winner = False
-button_clicked = 0
+
 
 
 def check_game():
     global game_active,winner
-    winner= True
     #check row and col
+    winner = True
     for x in range (0, 3):
         if (buttons[x][0].text() == buttons[x][1].text() == buttons[x][2].text() == "X" or
          buttons[0][x].text() == buttons[1][x].text() == buttons[2][x].text() == "X"):
@@ -57,7 +57,7 @@ def play(row, col,x):
             new_game()
             player = 1
                      
-    if x == "player2" and game_active == True and player == 2: 
+    elif x == "player2" and game_active == True and player == 2: 
          while buttons[row][col].text() == "":  
            buttons[row][col].setText("O")
            buttons[row][col].setStyleSheet("color:white; background-color:lightblue;")
@@ -89,6 +89,15 @@ def play(row, col,x):
                msg_box.exec()
             player = 1
             new_game()
+          elif count== 5 and winner == True:
+             text = main_window.btn_Ties.toPlainText()
+             text1 = text.split(":")
+             main_window.btn_Ties.setText(f" TIES: {int(text1[1])+1}")
+             msg_box= QMessageBox(text= "Ties!")
+             msg_box.exec()
+             new_game()
+             player = 1
+
             
         
        
@@ -105,7 +114,7 @@ def about():
 
 
 def reset():
-   global buttons, game_active
+   global buttons, game_active, player
    game_active = False
    for i in range(3):
     for j in range(3):
@@ -116,7 +125,9 @@ def reset():
    main_window.btn_C.setText(" C(CPU):0")
    main_window.btn_Ties.setText(" TIES:0")
    main_window.btn_X.setText(" X(YOU):0")
+   player = 1
    game_active = True
+
 
 def new_game():
    global buttons, game_active
