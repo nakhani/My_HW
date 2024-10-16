@@ -8,7 +8,7 @@ In this session, I completed a **My calculator design** which has below output:
 
 And also, write **TicTocToe Game** with a beautiful Graphic with below output:
 
-<img src="image\Untitled.png" width="200">
+<img src="image\tictoctoe.png" width="200">
 
 
 ---
