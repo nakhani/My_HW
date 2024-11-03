@@ -22,9 +22,10 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         if not MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
-        MainWindow.resize(383, 404)
-        MainWindow.setWindowOpacity(-11.000000000000000)
+        MainWindow.resize(416, 467)
+        MainWindow.setWindowOpacity(1.000000000000000)
         MainWindow.setStyleSheet(u"background-color: rgb(4, 4, 4);")
+        MainWindow.setAnimated(True)
         self.centralwidget = QWidget(MainWindow)
         self.centralwidget.setObjectName(u"centralwidget")
         self.gridLayout = QGridLayout(self.centralwidget)
@@ -37,7 +38,9 @@ class Ui_MainWindow(object):
         sizePolicy.setHeightForWidth(self.btn1.sizePolicy().hasHeightForWidth())
         self.btn1.setSizePolicy(sizePolicy)
         font = QFont()
-        font.setPointSize(14)
+        font.setFamilies([u"Segoe Print"])
+        font.setPointSize(18)
+        font.setBold(True)
         self.btn1.setFont(font)
         self.btn1.setStyleSheet(u"background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(136, 106, 22, 255), stop:0.0568182 rgba(235, 219, 102, 255), stop:0.153409 rgba(166, 140, 41, 255), stop:0.210227 rgba(204, 181, 74, 255), stop:0.415 rgba(245, 236, 112, 255), stop:0.52 rgba(209, 190, 76, 255), stop:0.695 rgba(202, 174, 68, 255), stop:0.75 rgba(218, 202, 86, 255), stop:0.815 rgba(208, 187, 73, 255), stop:0.880682 rgba(187, 156, 51, 255), stop:0.920455 rgba(187, 156, 51, 255), stop:0.943182 rgba(168, 142, 42, 255), stop:0.988636 rgba(137, 108, 26, 255), stop:1 rgba(35, 40, 3, 255));")
 
