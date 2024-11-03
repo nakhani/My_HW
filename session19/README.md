@@ -1,7 +1,7 @@
 
 # Session 19
 
-In this session, I completed 4 min program about:
+In this session, I completed 4 mini program about:
   
 - **SUDOKU GAME** :
 

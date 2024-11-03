@@ -10,6 +10,7 @@ class MainWindow(QMainWindow):
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
         self.ui.btn.clicked.connect(self.translator)
+        self.ui.textEdit.textChanged.connect(self.clear_translation)
         
     def translator(self):
         x= self.ui.textEdit.toPlainText()
@@ -21,6 +22,11 @@ class MainWindow(QMainWindow):
             result = "Please select a password strength option."
         
         self.ui.textEdit_2.setText(result)
+
+    def clear_translation(self):
+        if self.ui.textEdit.toPlainText().strip() == "":
+            self.ui.textEdit_2.setText("")
+
 
 app = QApplication(sys.argv)
 main_window = MainWindow()
