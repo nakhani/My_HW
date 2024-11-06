@@ -41,5 +41,9 @@ python mainn.py
 ```
 python symmetrical_arr.py
 ```
+**To run pairs list generator**, Run below command: 
 
+```
+python couple.py
+```
 
