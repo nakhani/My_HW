@@ -28,6 +28,7 @@ class MainWindow(QMainWindow):
             self.ui.textEdit_2.setText("")
 
 
+
 app = QApplication(sys.argv)
 main_window = MainWindow()
 main_window.show()
