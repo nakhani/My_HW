@@ -32,12 +32,13 @@ pip install -r requirements.txt
 **To run Todo_List:**
 
 ```
-main.exe 
+python main.py
+
 ```
 **OR**
 
 ```
-python main.py
+main.exe 
 ```
 
 
