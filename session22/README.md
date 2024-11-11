@@ -1,6 +1,6 @@
 # Session 22
 
-- In this session, I wrote a **TODO LIST program** which has below features:
+- In this session, I wrote a **TODO LIST** which has below features:
 
  - *Add title* 
  - *Add description* 
@@ -32,7 +32,12 @@ pip install -r requirements.txt
 **To run Todo_List:**
 
 ```
-main.exe OR python main.py
+main.exe 
+```
+**OR**
+
+```
+python main.py
 ```
 
 
