@@ -45,16 +45,38 @@
     <property name="title">
      <string>About</string>
     </property>
-    <addaction name="about"/>
+    <addaction name="about_2"/>
    </widget>
    <widget class="QMenu" name="menuHelp">
     <property name="title">
      <string>Help</string>
     </property>
+    <addaction name="help"/>
+   </widget>
+   <widget class="QMenu" name="menuExit">
+    <property name="title">
+     <string>Exit</string>
+    </property>
+    <addaction name="exit"/>
+   </widget>
+   <widget class="QMenu" name="menuSolve">
+    <property name="title">
+     <string>Solve</string>
+    </property>
+    <addaction name="solve_puzzle"/>
+   </widget>
+   <widget class="QMenu" name="menuMode">
+    <property name="title">
+     <string>Mode</string>
+    </property>
+    <addaction name="actionDark"/>
    </widget>
    <addaction name="menuNew_Game"/>
    <addaction name="menuAbout"/>
    <addaction name="menuHelp"/>
+   <addaction name="menuExit"/>
+   <addaction name="menuSolve"/>
+   <addaction name="menuMode"/>
   </widget>
   <action name="new_game">
    <property name="text">
@@ -69,6 +91,36 @@
   <action name="about">
    <property name="text">
     <string>Sudoku Game</string>
+   </property>
+  </action>
+  <action name="Help">
+   <property name="text">
+    <string>help</string>
+   </property>
+  </action>
+  <action name="about_2">
+   <property name="text">
+    <string>about</string>
+   </property>
+  </action>
+  <action name="help">
+   <property name="text">
+    <string>help</string>
+   </property>
+  </action>
+  <action name="exit">
+   <property name="text">
+    <string>exit</string>
+   </property>
+  </action>
+  <action name="solve_puzzle">
+   <property name="text">
+    <string>solve puzzle</string>
+   </property>
+  </action>
+  <action name="actionDark">
+   <property name="text">
+    <string>Dark</string>
    </property>
   </action>
  </widget>

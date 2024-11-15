@@ -1,0 +1,18 @@
+5 6 8 7 3 0 1 0 4
+7 0 4 2 1 8 0 3 0
+2 0 1 0 6 5 0 7 8
+3 0 5 6 4 0 2 9 7
+0 0 6 9 8 2 4 5 3
+9 0 0 0 0 7 0 8 1
+4 0 9 8 7 0 0 1 2
+6 2 0 0 9 0 0 0 0
+0 1 3 0 0 4 0 0 9
+
+
+
+self.ui.new_game.triggered.connect(self.new_game)
+        self.ui.open_file.triggered.connect(self.open_file)
+        self.ui.menuAbout.triggered.connect(self.show_about)
+        self.ui.menuHelp.triggered.connect(self.show_help)
+        self.ui.menuExit.triggered.connect(self.close)
+        self.ui.menuSolve.triggered.connect(self.solve_puzzle)
