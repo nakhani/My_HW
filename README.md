@@ -1,6 +1,6 @@
 # Learning Python
 
-This repository is dedicated to learning and experimenting with Python. It contains basic codes, examples, and projects that explore various Python libraries such as Arcade, PySide6, Instaloader, TeleBot, Turtle, QRCode, Getpass, gTTS, ImageIO, Pillow, PyTube, Tabulate, and SQLite3.
+This repository is dedicated to learning and experimenting with Python. It contains basic codes, examples, and projects that explore various Python libraries such as Arcade, PySide6, Instaloader, TeleBot, Turtle, QRCode, Getpass, gTTS, ImageIO, Pillow, PyTube, Tabulate, SQLite3, threading, requests, and sudoku.
 
 ## Table of Contents
 
@@ -19,10 +19,11 @@ This repository is dedicated to learning and experimenting with Python. It conta
   - [PyTube](#pytube)
   - [Tabulate](#tabulate)
   - [SQLite3](#sqlite3)
+  - [threading](#threading)
+  - [requests](#requests)
+  - [sudoku](#sudoku)
 - [Setup and Installation](#setup-and-installation)
-- [Examples and Projects](#examples-and-projects)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Introduction
 
@@ -82,6 +83,18 @@ Tabulate is a Python library for creating beautiful, simple tables in the termin
 
 SQLite3 is a C library that provides a lightweight, disk-based database. It is also built into Python, which means you don’t have to install it separately.
 
+### threading
+
+The `threading` module in Python allows you to create, control, and manage multiple threads (smaller units of a process) in a program. It is essential for performing parallel execution of tasks to improve performance and responsiveness.
+
+### requests
+
+`requests` is a simple and elegant HTTP library for Python, built for human beings. It allows you to send HTTP requests with ease and handle responses efficiently.
+
+### sudoku
+
+`sudoku` is a Python library that provides tools for solving and generating Sudoku puzzles. It offers functions to create new puzzles, validate solutions, and perform other Sudoku-related operations.
+
 ## Setup and Installation
 
 To run the examples and projects in this repository, you'll need to install the required libraries. You can use the following commands to install them:
@@ -89,3 +102,14 @@ To run the examples and projects in this repository, you'll need to install the 
 1. **Clone this repository**:
    ```bash
    git clone https://github.com/yourusername/learning-python.git
+
+2. **Navigate to the project directory**:
+   ```bash
+   cd learning-python
+
+3. **Install the required libraries**:
+   There is a requirements.txt in each folder, Run this comment:
+   ```bash
+   pip install -r requirements.txt
+
+    
