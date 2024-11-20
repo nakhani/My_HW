@@ -33,12 +33,6 @@ Clock App is a versatile application that combines multiple time-related functio
 
    <img src="photos/timer.png" width="350">
 
-## Technical Highlights
-
-- **Object Oriented Programming**: The application is built using OOP principles to enhance modularity and maintainability.
-- **Each Class In A Separate File**: Classes are organized into separate files for better structure and readability.
-- **Portable SevenSegment Font**: The custom SevenSegment font is embedded in the application, ensuring it displays correctly on any system without requiring installation.
-- **Generate EXE File**: The project can be compiled into an executable file for easy distribution.
 
 ## Getting Started
 
