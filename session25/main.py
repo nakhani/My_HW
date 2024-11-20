@@ -1,6 +1,6 @@
 import sys
 from PySide6.QtWidgets import QApplication, QMainWindow, QStyleFactory
-from PySide6.QtGui import QPalette, QColor
+from PySide6.QtGui import *
 from PySide6.QtCore import Qt
 from stopwatch import StopWatchThread
 from ui_mainwindow import Ui_MainWindow
@@ -14,7 +14,7 @@ class MainWindow(QMainWindow):
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
 
-       
+        self.load_custom_font()
         self.apply_dark_cherry_theme()
 
         self.thread_stopwatch = StopWatchThread()
@@ -49,6 +49,20 @@ class MainWindow(QMainWindow):
             thread_clock.start()
 
         self.alarm_manager = AlarmThread(self.ui)
+
+
+    def load_custom_font(self): 
+        font_id = QFontDatabase.addApplicationFont("C:/Users/Dr.Laptop/Desktop/python_class/My_HW/session25/font/Seven Segment.ttf") # Update with the correct path 
+        if font_id == -1: 
+            print("Failed to load the custom font.") 
+        else: 
+            font_families = QFontDatabase.applicationFontFamilies(font_id) 
+            if font_families: 
+               self.custom_font_family = font_families[0] 
+               font = QFont(self.custom_font_family)
+               QApplication.setFont(font) 
+            else: 
+               print("No font families found for the custom font.")
 
     def apply_dark_cherry_theme(self):
         dark_palette = self.create_dark_cherry_palette()
