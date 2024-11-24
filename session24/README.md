@@ -23,8 +23,8 @@ This repository contains three Python projects:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/my-python-projects.git
-   cd my-python-projects
+   git clone https://github.com/nakhani/My_HW/tree/2918fc53a658b074caa522daf4016dd0b82ac6f0/session24
+   cd session24
 
 2. **Install the required libraries**:
    ```bash
